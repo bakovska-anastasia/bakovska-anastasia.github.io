@@ -1,0 +1,28 @@
+/*Intro*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../image/first.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro .container {
+    width: 100%;
+    max-width: 800px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.intro h1 {
+font-family: 'Quicksand', sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+ text-transform: uppercase; 
+	text-align: center;
+    line-height: 1;
+}

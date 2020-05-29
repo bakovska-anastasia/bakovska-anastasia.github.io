@@ -1,0 +1,34 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.gallery {
+    margin-left: -10px;
+}
+
+.gallery .item {
+    width: 33.3%;
+    padding: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .gallery .item {
+        width: 50%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .gallery .item {
+        width: 100%;
+    }
+}

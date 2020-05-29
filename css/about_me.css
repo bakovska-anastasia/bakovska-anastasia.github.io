@@ -1,0 +1,55 @@
+.about_me {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	margin: auto;
+    padding: 25px;
+	min-height: 100vh;
+}
+
+.about_me .container {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;	
+}
+
+.about_content {
+    width: 50%;
+	
+}
+
+.about_photo {
+    width: 50%;
+	padding-left: 40px;
+
+}
+
+.about_title {
+	font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0.35em;
+	letter-spacing: .05em;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    color: rgb(235,163,87);
+    font-weight: 400;
+	text-transform: uppercase;
+}
+
+.text {
+	margin-bottom: 1em;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: rgb(61,93,80);
+    font-weight: 300;
+}
+
+@media screen and (max-width: 560px) {
+    .about_content,
+	.about_photo {
+        width: 100%;
+		padding: 0;
+	} 
+}

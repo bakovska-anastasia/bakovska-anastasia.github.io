@@ -1,0 +1,28 @@
+.categories {
+	padding-top: 100px;
+	margin: 20px 0;
+
+
+}
+
+.category {
+	background-color: rgb(235, 163, 87);
+	border-radius: 8px;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 15px;
+	margin-left: 16px;
+	text-decoration: none;
+}
+
+.category:hover {
+	background-color: rgb(61, 93, 80);
+}
+
+.category.active {
+	background-color: rgb(61, 93, 80);
+}
+
+.category:first-child {
+	margin-left: 0;
+}
